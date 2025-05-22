@@ -6,6 +6,7 @@
 This quick-reference guide explains protocols — what they are, how they differ from ports and cables, and how to choose the right ones for what you're trying to do.
 
 A **protocol** is a set of rules that define how devices or software communicate — whether it's sending video to a monitor, transferring files between systems, or securing a login. Some protocols operate entirely in software, while others rely on specific hardware to function.
+
 ### Why Protocols Matter
 ---
 
@@ -60,7 +61,7 @@ These software-based protocols manage how AI systems (especially language models
 | **OpenAI Tool Calling Schema** | Defines message formats for GPT models to call tools and use the results. JSON-based and used in OpenAI’s assistant API. |
 | **LangChain Agent Frameworks** | Organizes tool use, memory, and step-by-step reasoning loops for building agents. Works across many models and APIs. |
 
-#### Comparison Table
+### Comparison Table
 
 | Name | Owner | Open Standard? | Use Case |
 |------|-------|----------------|----------|
