@@ -50,6 +50,26 @@ These protocols work below the surface — you don’t usually interact with the
 
 ---
 
+### AI/Model Interaction Protocols
+
+These software-based protocols manage how AI systems (especially language models) interact with external tools, data, memory, and APIs in structured workflows.
+
+| Protocol | Purpose |
+|----------|---------|
+| **MCP (Model Context Protocol)** | A standardized way for language models to access tools, files, memory, and APIs in structured, context-aware workflows. Used by systems like Claude to interact with real-world data. |
+| **OpenAI Tool Calling Schema** | Defines message formats for GPT models to call tools and use the results. JSON-based and used in OpenAI’s assistant API. |
+| **LangChain Agent Frameworks** | Organizes tool use, memory, and step-by-step reasoning loops for building agents. Works across many models and APIs. |
+
+#### Comparison Table
+
+| Name | Owner | Open Standard? | Use Case |
+|------|-------|----------------|----------|
+| **MCP** | Hugging Face | ✅ Yes | Cross-model tool/memory interaction |
+| **OpenAI Tool Schema** | OpenAI | ❌ No | GPT-specific tool calling |
+| **LangChain Agent Framework** | LangChain | ❌ No | Custom agent building with memory/tools |
+
+> These protocols are key when building tool-using AI systems. MCP aims to standardize the space, while OpenAI and LangChain offer more framework-specific solutions.
+
 ### 🧭 Final Thoughts
 
 Understanding protocols helps you choose the **right tools** for your workflow — whether you’re setting up a display, transferring files, building APIs, or securing user data.
