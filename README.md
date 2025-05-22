@@ -7,8 +7,10 @@ This quick-reference guide explains protocols — what they are, how they differ
 
 A **protocol** is a set of rules that define how devices or software communicate — whether it's sending video to a monitor, transferring files between systems, or securing a login. Some protocols operate entirely in software, while others rely on specific hardware to function.
 
-### Why Protocols Matter
 ---
+
+### Why Protocols Matter
+
 
 When you're setting up an **external monitor**, you're really asking:  
 **Can my laptop send video, and does this cable support video output?**  
@@ -24,6 +26,7 @@ All of these are powered by **protocols** — sets of rules that make devices an
 
 ### Protocols by Use Case
 
+
 | Use Case | Protocols |
 |----------|-----------|
 | **Web browsing** | HTTP, HTTPS |
@@ -34,11 +37,14 @@ All of these are powered by **protocols** — sets of rules that make devices an
 | **Smart devices** | Bluetooth, Zigbee, Z-Wave |
 | **Device control & sync** | MIDI, CEC (for HDMI), USB protocols |
 
+
 ---
 
 ### Bonus: Lower-Layer Protocols (Behind the Scenes)
 
 These protocols work below the surface — you don’t usually interact with them directly, but **every higher-level protocol depends on them**.
+
+
 
 | Protocol | Layer | Role |
 |----------|-------|------|
@@ -49,11 +55,14 @@ These protocols work below the surface — you don’t usually interact with the
 > For example: HTTP relies on TCP, and TLS secures TCP connections.  
 > They're all stacked together — this is called the **network protocol stack**.
 
+
 ---
 
 ### AI/Model Interaction Protocols
 
 These software-based protocols manage how AI systems (especially language models) interact with external tools, data, memory, and APIs in structured workflows.
+
+
 
 | Protocol | Purpose |
 |----------|---------|
@@ -61,7 +70,10 @@ These software-based protocols manage how AI systems (especially language models
 | **OpenAI Tool Calling Schema** | Defines message formats for GPT models to call tools and use the results. JSON-based and used in OpenAI’s assistant API. |
 | **LangChain Agent Frameworks** | Organizes tool use, memory, and step-by-step reasoning loops for building agents. Works across many models and APIs. |
 
-### Comparison Table
+
+#### Comparison Table
+
+
 
 | Name | Owner | Open Standard? | Use Case |
 |------|-------|----------------|----------|
@@ -69,7 +81,9 @@ These software-based protocols manage how AI systems (especially language models
 | **OpenAI Tool Schema** | OpenAI | ❌ No | GPT-specific tool calling |
 | **LangChain Agent Framework** | LangChain | ❌ No | Custom agent building with memory/tools |
 
+
 > These protocols are key when building tool-using AI systems. MCP aims to standardize the space, while OpenAI and LangChain offer more framework-specific solutions.
+
 
 ### 🧭 Final Thoughts
 
