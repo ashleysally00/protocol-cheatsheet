@@ -5,9 +5,9 @@
 
 This quick-reference guide explains protocols — what they are, how they differ from ports and cables, and how to choose the right ones for what you're trying to do.
 
----
-
+A **protocol** is a set of rules that define how devices or software communicate — whether it's sending video to a monitor, transferring files between systems, or securing a login. Some protocols operate entirely in software, while others rely on specific hardware to function.
 ### Why Protocols Matter
+---
 
 When you're setting up an **external monitor**, you're really asking:  
 **Can my laptop send video, and does this cable support video output?**  
